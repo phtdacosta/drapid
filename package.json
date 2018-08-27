@@ -1,0 +1,31 @@
+{
+  "name": "drapid",
+  "version": "0.0.1",
+  "description": "NoSQL/hash table for Node.js under 4KB and no external dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/basic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phtdacosta/drapid.git"
+  },
+  "keywords": [
+    "tiny",
+    "small",
+    "database",
+    "fast",
+    "performance",
+    "simple",
+    "nosql",
+    "hashtable"
+  ],
+  "author": "Pedro Costa <pedrohenriqueteodorodacosta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phtdacosta/drapid/issues"
+  },
+  "homepage": "https://github.com/phtdacosta/drapid#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
