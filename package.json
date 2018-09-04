@@ -1,7 +1,7 @@
 {
   "name": "drapid",
-  "version": "0.0.1",
-  "description": "NoSQL/hash table for Node.js under 4KB and no external dependencies.",
+  "version": "0.0.2",
+  "description": "NoSQL/hash table classes for Node.js under 4KB and no external dependencies.",
   "main": "src/index.js",
   "scripts": {
     "test": "node test/basic.js"

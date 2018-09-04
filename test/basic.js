@@ -29,8 +29,8 @@ const ht = new Drapid.HashTable(config)
 // Tests most important methods of the hash table class
 // Includes two objects into the collection
 Promise.all([
-    std.include({'name':'Rita', 'job':'mage'}),
-    std.include({'name':'Phil', 'job':'mage'})
+    ht.include({'name':'Rita', 'job':'mage'}),
+    ht.include({'name':'Phil', 'job':'mage'})
 ])
 // Combines a new object into the existing one
 .then(res => ht.combine('Rita', {'race':'human'}))

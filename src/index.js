@@ -83,8 +83,8 @@ class Standard {
     }
 
     find (key, value) {
-        let array = new Array(),
-            index = -1
+        const array = new Array()
+        let index = -1
         // Sequential algorithm
         for (const object of this.data) {
             index = index + 1
@@ -97,8 +97,8 @@ class Standard {
     }
 
     recover (key, value) {
-        let array = this.find(key, value),
-            index = -1
+        const array = this.find(key, value)
+        let index = -1
         for (const element of array) {
             index = index + 1
             array[index] = this.data[element]
@@ -115,7 +115,7 @@ class Standard {
             const error = new Error('Not possible to combine without a primary key')
             return error
         } else {
-            let array = this.find(this.key, value)
+            const array = this.find(this.key, value)
             for (const index of array)
                 Object.assign(this.data[index], object)
                 // this.data[index] = object
@@ -124,7 +124,7 @@ class Standard {
     }
 
     exclude (key, value) {
-        let array = this.find(key, value)
+        const array = this.find(key, value)
         for (const index of array)
             this.data.splice(index, 1)
         return array
