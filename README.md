@@ -1,5 +1,11 @@
 # drapid
-NoSQL/hash table for Node.js under 4KB and no external dependencies 
+NoSQL/hash table classes for Node.js under 4KB and no external dependencies.
+
+[![npm](https://img.shields.io/npm/dy/drapid.svg)](https://www.npmjs.com/package/drapid)
+[![npm version](https://badge.fury.io/js/drapid.svg)](https://badge.fury.io/js/drapid)
+[![Build Status](https://travis-ci.org/phtdacosta/drapid.svg?branch=master)](https://travis-ci.org/phtdacosta/drapid)
+[![David Dependancy Status](https://david-dm.org/phtdacosta/drapid.svg)](https://david-dm.org/phtdacosta/drapid)
+[![NpmLicense](https://img.shields.io/npm/l/drapid.svg)](https://www.npmjs.com/package/drapid)
 
 Use cases:
 * On small and medium Node.js projects where any **data has to be stored in a structured way**. (Browserify may even extend the support to browsers, but that was not tested yet!)
